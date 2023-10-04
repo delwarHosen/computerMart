@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "index": 0,
+        "price": 17990,
+        "name": "MAG SE22H 22 inch IPS",
+        "picture": "https://i.ibb.co/Q8WSzLS/monitor.jpg",
+        "category": "Computer parts"
+    },
+    {
+        "id": 2,
+        "index": 1,
+        "price": 350,
+        "name": "Deepcool CK-11509 CPU Cooler fan",
+        "picture": "https://i.ibb.co/RyWMD7M/cooling-Fan.jpg",
+        "category": "Computer parts"
+    },
+    {
+        "id": 3,
+        "index": 2,
+        "price": 13500,
+        "name": "central processing unit(CPU)",
+        "picture": "https://i.ibb.co/GtRXkZg/cpu.jpg",
+        "category": "Computer parts"
+    },
+    {
+        "id": 4,
+        "index": 3,
+        "price": 350,
+        "name": "Mouse A4TacH",
+        "picture": "https://i.ibb.co/k5dMF4z/mouse.jpg",
+        "category": "Computer parts"
+    },
+    {
+        "id": 5,
+        "index": 4,
+        "price": 1190,
+        "name": "Antec META V350 350W Power Supply",
+        "picture": "https://i.ibb.co/23nVjhr/power-Supply.webp",
+        "category": "Computer parts"
+    },
+    {
+        "id": 6,
+        "index": 5,
+        "price": 10990,
+        "name": "Pantum P2500 Single Function Mono Laser Printer",
+        "picture": "https://i.ibb.co/g7jHV4f/printer.jpg",
+        "category": "Computer parts"
+    },
+    {
+        "id": 7,
+        "index": 6,
+        "price": 4500,
+        "name": "Toshiba DT01ABA100V 1TB Surveillance Hard Drive",
+        "picture": "https://i.ibb.co/2trmqCb/hard-Disk-Drive.jpg",
+        "category": "Computer parts"
+    },
+    {
+        "id": 8,
+        "index": 7,
+        "price": 1450,
+        "name": "Transcend JetRam 4GB DDR4 3200MHz U-DIMM Desktop RAM",
+        "picture": "https://i.ibb.co/mc4kC1x/ram.jpg",
+        "category": "Computer parts"
+    },
+    {
+        "id": 9,
+        "index": 8,
+        "price": 10500,
+        "name": "AMD Ryzen 3 4100 Processor",
+        "picture": "https://i.ibb.co/JHJS8sW/processor.jpg ",
+        "category": "Computer parts"
+    }
+]
