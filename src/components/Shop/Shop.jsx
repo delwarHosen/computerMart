@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useContext } from "react";
 import { ProductContext } from "../Root/Root";
 import Product from '../Product/Product';
+import { adToDb } from '../../utils/fakeDb';
 
 const Shop = () => {
     // Load data from fake data using context Api
@@ -22,6 +23,7 @@ const Shop = () => {
             newCart = [...restProduct, remaining]
         }
         setCart(newCart)
+        adToDb(product.id)
         console.log(newCart)
     }
 

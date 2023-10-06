@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "01",
         "index": 0,
         "price": 17990,
         "name": "MAG SE22H 22 inch IPS",
@@ -8,7 +8,7 @@
         "category": "Computer parts"
     },
     {
-        "id": 2,
+        "id": " 02",
         "index": 1,
         "price": 350,
         "name": "Deepcool CK-11509 CPU Cooler fan",
@@ -16,7 +16,7 @@
         "category": "Computer parts"
     },
     {
-        "id": 3,
+        "id": "03",
         "index": 2,
         "price": 13500,
         "name": "central processing unit(CPU)",
@@ -24,7 +24,7 @@
         "category": "Computer parts"
     },
     {
-        "id": 4,
+        "id": "04",
         "index": 3,
         "price": 350,
         "name": "Mouse A4TacH",
@@ -32,7 +32,7 @@
         "category": "Computer parts"
     },
     {
-        "id": 5,
+        "id": " 05",
         "index": 4,
         "price": 1190,
         "name": "Antec META V350 350W Power Supply",
@@ -40,7 +40,7 @@
         "category": "Computer parts"
     },
     {
-        "id": 6,
+        "id": "06",
         "index": 5,
         "price": 10990,
         "name": "Pantum P2500 Single Function Mono Laser Printer",
@@ -48,7 +48,7 @@
         "category": "Computer parts"
     },
     {
-        "id": 7,
+        "id": "07",
         "index": 6,
         "price": 4500,
         "name": "Toshiba DT01ABA100V 1TB Surveillance Hard Drive",
@@ -56,7 +56,7 @@
         "category": "Computer parts"
     },
     {
-        "id": 8,
+        "id": "08",
         "index": 7,
         "price": 1450,
         "name": "Transcend JetRam 4GB DDR4 3200MHz U-DIMM Desktop RAM",
@@ -64,7 +64,7 @@
         "category": "Computer parts"
     },
     {
-        "id": 9,
+        "id": "09",
         "index": 8,
         "price": 10500,
         "name": "AMD Ryzen 3 4100 Processor",
