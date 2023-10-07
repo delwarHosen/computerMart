@@ -9,7 +9,7 @@ const Shop = () => {
     const products = useContext(ProductContext);
 
     const [cart, setCart] = useContext(CartContext)
-    console.log(cart)
+    // console.log(cart)
 
     // collect data from cart or local storage
     const handleAddToCart = (product) => {

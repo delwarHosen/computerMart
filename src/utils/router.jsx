@@ -5,12 +5,14 @@ import About from "../components/About/About";
 import Shop from "../components/Shop/Shop";
 import { productAndCartData } from "../loaders/getProductAndCartProduct";
 import Cart from "../components/Cart/Cart";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>,
         loader: productAndCartData,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',

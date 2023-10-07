@@ -15,6 +15,17 @@ const Cart = () => {
         removeFromDb(id)
     }
 
+    // total Product count
+    let total = 0
+    for (const totalPrice of cart) {
+        total = total + totalPrice.price * totalPrice.quantity;
+    }
+
+    const handleRemoveCart = () => {
+        setCurt([])
+    }
+
+
 
     return (
         <div className='sm:w-1/2 mx-auto border rounded p-5 bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-indigo-200 via-slate-600 to-indigo-200'>
@@ -28,13 +39,13 @@ const Cart = () => {
                     ></CartItem>)
                 }
             </ul>
-            <h4 className='text-2xl text-gray-800 font-sans font-semibold text-end'>Total Amount: <span>tk</span></h4>
+            <h4 className='text-2xl text-gray-800 font-sans font-semibold text-end'>Total Amount: {total}<span>tk</span></h4>
             <p className='text-end'>happy shop</p>
             <div className='text-end'>
                 <Link to='/shop'>
                     <button className="text-sm text-white font-bold mt-10 py-2 px-6 rounded-lg bg-gradient-to-r from-sky-400 to-cyan-300 hover:bg-cyan-800 ">Back to Shop</button>
                 </Link>
-                <button className="text-sm font-bold mt-10 py-2 px-6 border-solid border-2 border-sky-500  ml-4 rounded-lg">Learn More</button>
+                <button onClick={handleRemoveCart} className="text-sm font-bold mt-10 py-2 px-6 border-solid border-2 border-sky-500  ml-4 rounded-lg">Order Cancel</button>
             </div>
         </div>
     );

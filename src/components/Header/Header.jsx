@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { CartContext } from '../Root/Root';
 
 const Header = () => {
+    const [cart, setCart] = useContext(CartContext)
     const [navbar, setNavbar] = useState(false);
     return (
         <nav className="w-full sticky top-0 z-[999] shadow bg-white">
@@ -63,7 +65,7 @@ const Header = () => {
                                 <Link className=' hover:text-blue-600 font-sans font-semibold' to="/shop">Shop</Link>
                             </li>
                             <li >
-                                <Link className=' hover:text-blue-600 font-sans font-semibold' to="/cart">Cart</Link>
+                                <Link className=' hover:text-blue-600 font-sans font-semibold ' to="/cart">Cart <sup className='text-red-600 font-bold text-lg'>{cart.length}</sup></Link>
                             </li>
                             <li>
                                 <Link className=' hover:text-blue-600 font-sans font-semibold' to="/about">About</Link>

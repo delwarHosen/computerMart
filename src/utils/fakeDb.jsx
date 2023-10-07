@@ -40,5 +40,9 @@ const removeFromDb = (id) => {
     }
 }
 
+const deleteShoppinCart = () => {
+    localStorage.removeItem("shopping-cart")
+}
 
-export { adToDb, getStoredCart, removeFromDb }
+
+export { adToDb, getStoredCart, removeFromDb, deleteShoppinCart }
