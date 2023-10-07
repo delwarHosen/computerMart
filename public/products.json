@@ -1,6 +1,6 @@
 [
     {
-        "id": "01",
+        "id": "623853b2614ad5aba311fdd1",
         "index": 0,
         "price": 17990,
         "name": "MAG SE22H 22 inch IPS",
@@ -8,7 +8,7 @@
         "category": "Computer parts"
     },
     {
-        "id": " 02",
+        "id": "623853b2578e9e6ad1ae0dd5",
         "index": 1,
         "price": 350,
         "name": "Deepcool CK-11509 CPU Cooler fan",
@@ -16,7 +16,7 @@
         "category": "Computer parts"
     },
     {
-        "id": "03",
+        "id": "623853b21fb149d2ee7b76c7",
         "index": 2,
         "price": 13500,
         "name": "central processing unit(CPU)",
@@ -24,7 +24,7 @@
         "category": "Computer parts"
     },
     {
-        "id": "04",
+        "id": "623853b2e91c8de578c9245e",
         "index": 3,
         "price": 350,
         "name": "Mouse A4TacH",
@@ -32,7 +32,7 @@
         "category": "Computer parts"
     },
     {
-        "id": " 05",
+        "id": "623853b2239582e48409ccc6",
         "index": 4,
         "price": 1190,
         "name": "Antec META V350 350W Power Supply",
@@ -40,7 +40,7 @@
         "category": "Computer parts"
     },
     {
-        "id": "06",
+        "id": "623853b2cdda0d5bc294f791",
         "index": 5,
         "price": 10990,
         "name": "Pantum P2500 Single Function Mono Laser Printer",
@@ -48,7 +48,7 @@
         "category": "Computer parts"
     },
     {
-        "id": "07",
+        "id": "623853b2736f19fd4eb8d44a",
         "index": 6,
         "price": 4500,
         "name": "Toshiba DT01ABA100V 1TB Surveillance Hard Drive",
@@ -56,7 +56,7 @@
         "category": "Computer parts"
     },
     {
-        "id": "08",
+        "id": "623853b2736f19fd4eb8d44b",
         "index": 7,
         "price": 1450,
         "name": "Transcend JetRam 4GB DDR4 3200MHz U-DIMM Desktop RAM",
@@ -64,7 +64,7 @@
         "category": "Computer parts"
     },
     {
-        "id": "09",
+        "id": "623853b2736f19fd4eb8d44c",
         "index": 8,
         "price": 10500,
         "name": "AMD Ryzen 3 4100 Processor",

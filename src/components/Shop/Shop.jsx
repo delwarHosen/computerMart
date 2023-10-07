@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useContext } from "react";
-import { ProductContext } from "../Root/Root";
+import { CartContext, ProductContext } from "../Root/Root";
 import Product from '../Product/Product';
 import { adToDb } from '../../utils/fakeDb';
 
@@ -8,7 +8,8 @@ const Shop = () => {
     // Load data from fake data using context Api
     const products = useContext(ProductContext);
 
-    const [cart, setCart] = useState([])
+    const [cart, setCart] = useContext(CartContext)
+    console.log(cart)
 
     // collect data from cart or local storage
     const handleAddToCart = (product) => {
@@ -18,13 +19,13 @@ const Shop = () => {
             product.quantity = 1;
             newCart = [...cart, product];
         } else {
-            const restProduct = cart.filter(exists => exists !== product.id)
+            const restProduct = cart.filter(exists => exists.id !== product.id)
             remaining.quantity = remaining.quantity + 1;
             newCart = [...restProduct, remaining]
         }
         setCart(newCart)
         adToDb(product.id)
-        console.log(newCart)
+        // console.log(newCart)
     }
 
     return (

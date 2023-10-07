@@ -7,12 +7,13 @@ export const ProductContext = createContext([])
 export const CartContext = createContext([])
 
 const Root = () => {
-    const products = useLoaderData()
-    const [cart, setCart] = useState()
+    const { products, initialCart } = useLoaderData()
+    const [cart, setCart] = useState(initialCart)
+    // console.log(initialCart)
 
     return (
         <ProductContext.Provider value={products}>
-            <CartContext.Provider value={[]}>
+            <CartContext.Provider value={[cart, setCart]}>
                 <Header></Header>
                 <Outlet></Outlet>
                 <Footer></Footer>
