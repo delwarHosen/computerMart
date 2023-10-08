@@ -65,7 +65,7 @@ const Header = () => {
                                 <Link className=' hover:text-blue-600 font-sans font-semibold' to="/shop">Shop</Link>
                             </li>
                             <li >
-                                <Link className=' hover:text-blue-600 font-sans font-semibold ' to="/cart">Cart <sup className='text-red-600 font-bold text-lg'>{cart.length}</sup></Link>
+                                <Link className=' hover:text-blue-600 font-sans font-semibold ' to="/cart">Cart <sup className='text-red-600 font-bold text'>{cart.length}</sup></Link>
                             </li>
                             <li>
                                 <Link className=' hover:text-blue-600 font-sans font-semibold' to="/about">About</Link>

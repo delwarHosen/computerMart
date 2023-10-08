@@ -5,8 +5,7 @@ import { Link } from 'react-router-dom';
 const CartItem = ({ product, handleRemoveItem }) => {
     const { id, name, picture, quantity, price } = product
     return (
-        <div
-            className="flex flex-col m-5 rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:max-w-xl md:flex-row">
+        <div className="flex flex-col md:flex-col lg:flex-row m-5 rounded-lg bg-gradient-to-r from-slate-500 to-yellow-100 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 animate-fade animate-once animate-duration-[2000ms] animate-delay-300 animate-ease-linear animate-normal animate-fill-forwards">
             <img
                 className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                 src={picture}

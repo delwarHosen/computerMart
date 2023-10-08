@@ -30,7 +30,7 @@ const Shop = () => {
 
     return (
         <div className='flex justify-center'>
-            <div className='grid grid-cols-3 gap-6'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 m-4 animate-jump-in animate-once animate-duration-[1200ms] animate-delay-100 animate-ease-linear animate-normal animate-fill-forwards'>
                 {
                     products.map(product => <Product
                         key={product.id}
