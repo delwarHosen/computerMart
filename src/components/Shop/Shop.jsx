@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { CartContext, ProductContext } from "../Root/Root";
 import Product from '../Product/Product';
 import { adToDb } from '../../utils/fakeDb';
+import { toast } from 'react-toastify';
 
 const Shop = () => {
     // Load data from fake data using context Api
@@ -25,12 +26,13 @@ const Shop = () => {
         }
         setCart(newCart)
         adToDb(product.id)
+        toast.success('Your product add to cart', { autoClose: 400 })
         // console.log(newCart)
     }
 
     return (
         <div className='flex justify-center'>
-            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 m-4 animate-jump-in animate-once animate-duration-[1200ms] animate-delay-100 animate-ease-linear animate-normal animate-fill-forwards'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-4 mx-6 animate-jump-in animate-once animate-duration-[1200ms] animate-delay-100 animate-ease-linear animate-normal animate-fill-forwards'>
                 {
                     products.map(product => <Product
                         key={product.id}

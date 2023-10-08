@@ -7,16 +7,16 @@ const Header = () => {
     const [cart, setCart] = useContext(CartContext)
     const [navbar, setNavbar] = useState(false);
     return (
-        <nav className="w-full sticky top-0 z-[999] shadow bg-white">
+        <nav className="w-full sticky top-0 z-[999] shadow bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="">
-                            <h2 className="text-2xl font-bold">COMPUTER MART</h2>
+                            <h2 className="text-3xl font-bold text-white">COMPUTER MART</h2>
                         </a>
                         <div className="md:hidden">
                             <button
-                                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                                className="p-2 text-gray-300 rounded-md outline-none focus:border-gray-400 focus:border"
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
@@ -59,16 +59,16 @@ const Header = () => {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li>
-                                <Link className=' hover:text-blue-600 font-sans font-semibold' to="/">Home</Link>
+                                <Link className=' hover:text-blue-600 font-sans font-semibold text-white' to="/">Home</Link>
                             </li>
                             <li>
-                                <Link className=' hover:text-blue-600 font-sans font-semibold' to="/shop">Shop</Link>
+                                <Link className=' hover:text-blue-600 font-sans font-semibold text-white' to="/shop">Shop</Link>
                             </li>
                             <li >
-                                <Link className=' hover:text-blue-600 font-sans font-semibold ' to="/cart">Cart <sup className='text-red-600 font-bold text'>{cart.length}</sup></Link>
+                                <Link className=' hover:text-blue-600 font-sans font-semibold text-white' to="/cart">Cart <sup className='text-red-600 font-bold text'>{cart.length}</sup></Link>
                             </li>
                             <li>
-                                <Link className=' hover:text-blue-600 font-sans font-semibold' to="/about">About</Link>
+                                <Link className=' hover:text-blue-600 font-sans font-semibold text-white' to="/about">About</Link>
                             </li>
                         </ul>
                     </div>
